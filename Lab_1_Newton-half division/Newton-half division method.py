@@ -1,4 +1,5 @@
 import matplotlib.pyplot as plt
+import numpy as np
 
 
 def equation(eq, val):
@@ -58,8 +59,29 @@ def newton_half_div(eq, a, b, x0, eps=0.001):
     return 'Error: the solution of the equation was not found', x_k
 
 
+def visualization(eq):
+    plt.figure(figsize=(10, 10))
+    plt.title("The graph of function: x^3 - 0.8*x^2 - 6.8*x + 0.7")
+
+    x = np.linspace(-5, 5, 100)
+
+    plt.axis([-5, 5, -10, 10])
+    plt.grid()
+    plt.plot(x, equation(eq, x))
+
+    plt.gca().spines['bottom'].set_position(('data', 0))
+    plt.gca().spines['left'].set_position(('data', 0))
+    plt.gca().spines['top'].set_visible(False)
+    plt.gca().spines['right'].set_visible(False)
+    plt.xticks(np.linspace(-5, 5, 11))
+    plt.yticks(np.linspace(-10, 10, 21))
+    plt.show()
+    pass
+
+
 if __name__ == '__main__':
     eq = (0.7, -6.8, -0.8, 1)
+    visualization(eq)
     while True:
         a = float(input('Enter the left border of the segment: '))
         b = float(input('Enter the right border of the segment: '))
@@ -86,11 +108,11 @@ if __name__ == '__main__':
             print('WARNING! The solution was found outside the segment!')
         print(f'The hybrid method: {n_h_d[1]}.')
         print(f'The number of iterations of the calculation is {n_h_d[2]}.')
-        print(f'The value of the function at this point: {round(n_h_d[3], 6)}')
+        print(f'The value of the function at this point: {n_h_d[3]} \n')
     if d_method[0] != 'Completed':
         print(d_method[0])
         print(f'Value: {d_method[1]}')
     else:
         print(f'The method of dichotomy: {d_method[1]}.')
         print(f'The number of iterations of the calculation is {d_method[2]}')
-        print(f'The value of the function at this point: {round(d_method[3], 6)}')
+        print(f'The value of the function at this point: {d_method[3]}')
