@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e3b8d863-bee9-4c45-831f-a3ebe4e7d6a9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="be05376a-1e61-4e8a-89a4-d3a842870eae" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../Lab_1_Newton-half division/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab_1_Newton-half division/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,12 +13,12 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Newton-half division method.py">
+        <entry file="file://$PROJECT_DIR$/Lab_2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-475">
-              <caret line="48" column="13" lean-forward="true" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
+            <state relative-caret-position="527">
+              <caret line="85" selection-start-line="85" selection-end-line="85" />
               <folding>
-                <element signature="e#0#31#0" expanded="true" />
+                <element signature="e#0#18#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -39,20 +39,23 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Newton-half division method.py" />
+        <option value="$PROJECT_DIR$/Lab_2.py" />
       </list>
     </option>
   </component>
   <component name="ProjectConfigurationFiles">
     <option name="files">
       <list>
+        <option value="$PROJECT_DIR$/.idea/Lab_2.iml" />
         <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="117" />
-    <option name="y" value="-12" />
+    <option name="x" value="323" />
+    <option name="y" value="-11" />
     <option name="width" value="697" />
     <option name="height" value="735" />
   </component>
@@ -62,22 +65,22 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="Lab_1_Newton-half division" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Lab_1_Newton-half division" type="462c0819:PsiDirectoryNode" />
+              <item name="Lab_2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lab_2" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Scientific Research Work" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -92,8 +95,8 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="Newton-half division method" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Lab_1_Newton-half division" />
+    <configuration name="Lab_2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Lab_2" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -104,7 +107,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Newton-half division method.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lab_2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -115,7 +118,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Newton-half division method" />
+        <item itemvalue="Python.Lab_2" />
       </list>
     </recent_temporary>
   </component>
@@ -124,23 +127,23 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="e3b8d863-bee9-4c45-831f-a3ebe4e7d6a9" name="Default Changelist" comment="" />
-      <created>1582092962678</created>
+      <changelist id="be05376a-1e61-4e8a-89a4-d3a842870eae" name="Default Changelist" comment="" />
+      <created>1586186400197</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1582092962678</updated>
+      <updated>1586186400197</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.50986344" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15476191" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.49918166" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.43371522" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -148,19 +151,36 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" weight="0.3289689" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Newton-half division method.py">
+    <entry file="file://$USER_HOME$/Downloads/Second_lab.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-475">
-          <caret line="48" column="13" lean-forward="true" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
+        <state relative-caret-position="529">
+          <caret line="109" selection-end-line="109" />
           <folding>
-            <element signature="e#0#31#0" expanded="true" />
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/Lab2.ipynb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1275">
+          <caret line="180" column="13" selection-start-line="180" selection-start-column="13" selection-end-line="181" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab_2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="85" selection-start-line="85" selection-end-line="85" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
